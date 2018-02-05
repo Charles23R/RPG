@@ -1,7 +1,7 @@
 /**
  * Created by RenCh1732786 on 2018-02-01.
  */
-public abstract class personnage {
+public abstract class Personnage {
 
     protected int pv;
     protected int pointDef;
@@ -31,6 +31,6 @@ public abstract class personnage {
         this.nom = nom;
     }
 
-    public abstract void attaque();
+    public abstract void attaque(Personnage personnage);
 
 }
